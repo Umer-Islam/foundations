@@ -10,7 +10,7 @@ let getComputerChoice = () => {
 let computerSelection = getComputerChoice();
 let playerSelection = prompt('ROCK,Paper,or Scissors..... DECIDE')
 playerSelection = playerSelection.toLowerCase();
-// just for testing 
+// just for testing.
 console.log({ computerSelection });
 console.log({ playerSelection });
 
